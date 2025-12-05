@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pey – Smart UPI Payment App</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+header {
+    background: linear-gradient(90deg, #5b2cd3, #7b5ef5);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+.preview {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.preview img {
+    width: 220px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.download {
+    text-align: center;
+    margin-top: 25px;
+}
+.download a {
+    background: #5b2cd3;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.download a:hover {
+    background: #7b5ef5;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #fff;
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Pey – Smart UPI Payment App</h1>
+    <p>Scan • Pay • Earn Rewards</p>
+</header>
+
+<div class="container">
+
+    <div class="preview">
+        <h2>Experience Fast & Secure UPI Payments</h2>
+        <p>Scan any QR code, send or receive money instantly, and enjoy cashback rewards.</p>
+        <img src="https://cdn-icons-png.flaticon.com/512/2331/2331966.png" alt="App Preview">
+    </div>
+
+    <div class="download">
+        <a href="#" id="downloadApp">⬇ Download App</a>
+        <p style="margin-top:8px;font-size:14px;color:#777;">Available for Android (coming soon)</p>
+    </div>
+
+</div>
+
+<footer>
+    © 2025 Pey App | Designed with ❤️ for Demo Use Only
+</footer>
+
+<script>
+// When user clicks download, show alert or redirect link
+document.getElementById("downloadApp").addEventListener("click", () => {
+    alert("Download link coming soon! You can integrate your APK file link here.");
+});
+</script>
+
+</body>
+</html>
